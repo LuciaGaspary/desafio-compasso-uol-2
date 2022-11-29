@@ -25,20 +25,16 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Vesperr - v4.9.1
-  * Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
+  <!--HEADER-->
   <header id="header" class="fixed-top d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
 
@@ -51,19 +47,20 @@
       <!--NAVBAR-->
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Inicio</a></li>
-          <li><a class="nav-link scrollto" href="#about">Editais</a></li>
-          <li><a class="nav-link scrollto" href="#services">Apresentação</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Estrutura</a></li>
-          <li><a class="nav-link scrollto" href="#team">Parceiros</a></li>
-          <li><a class="nav-link scrollto" href="#pricing">Serviços</a></li>
-          <li><a class="nav-link scrollto" href="#contato">Contato</a></li>
+          <li><a class="nav-link scrollto active">Inicio</a></li>
+          <li><a class="nav-link scrollto">Editais</a></li>
+          <li><a class="nav-link scrollto">Apresentação</a></li>
+          <li><a class="nav-link scrollto">Estrutura</a></li>
+          <li><a class="nav-link scrollto">Parceiros</a></li>
+          <li><a class="nav-link scrollto" href="#contato">Serviços</a></li>
+          <li><a class="nav-link scrollto">Contato</a></li>
         </ul>
       </nav>
       <!--FIM NAVBAR-->
 
     </div>
-  </header><!-- End Header -->
+  </header>
+  <!--FIM HEADER-->
 
   <main id="main">
 
@@ -141,29 +138,178 @@
         <div class="row">
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <h4 class="title"><a href="">Auditório Parque Tecnologico</a></h4>
-              <p class="description">Descrição auditório m² e capacidade maxima</p>
+              <h4 class="title"><a>Auditório Parque Tecnologico</a></h4>
+              <p class="description">240m² (12m x 20m) <br>Capacidade máxima 200 pessoas</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <h4 class="title"><a href="">Sala de treinamento 1</a></h4>
-              <p class="description">Descrição sala de treinamento 1</p>
+              <h4 class="title"><a>Sala de treinamento 1</a></h4>
+              <p class="description">48m² (6m x 8m) <br>Capacidade máxima 30 pessoas</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <h4 class="title"><a href="">Sala de treinamento 2</a></h4>
-              <p class="description">Descrição sala de treinamento 2</p>
+              <h4 class="title"><a>Sala de treinamento 2</a></h4>
+              <p class="description">72² (6m x 12m)<br>Capacidade máxima 50 pessoas</p>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <h4 class="title"><a href="">Sala de treinamento 3</a></h4>
-              <p class="description">Descrição sala de treinamento 3</p>
+              <h4 class="title"><a>Outras opções de espaço</a></h4>
+              <p class="description">Arena da inovação, Pátio externo, Hall interno ou Cafeteria</p>
+            </div>
+          </div>
+        </div>
+
+        <img src="img/disposicao.JPG" class="mt-5">
+
+      </div>
+    </section>
+    <!--FIM SALAS DISPONIVEIS-->
+
+    <!--GALERIA-->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="fade-up">
+          <h2>Galeria de fotos</h2>
+          <p>Acompanhe alguns eventos que já aconteceram aqui no Parque!</p>
+        </div>
+
+        <div class="row" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">Todas as fotos</li>
+              <li data-filter=".filter-app">Auditório</li>
+              <li data-filter=".filter-card">Treinamento 1</li>
+              <li data-filter=".filter-web">Treinamento 2</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
+
+          <!--auditorio1-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/auditorio1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/auditorio1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!--treinamento2-1-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/treinamento2-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/treinamento2-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!--auditorio2-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/auditorio2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/auditorio2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!--treinamento1-1-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/treinamento1-1.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/treinamento1-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!--treinamento2-2-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/treinamento2-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/treinamento2-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!--auditorio3-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/auditorio3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/auditorio3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!--treinamento1-2-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/treinamento1-2.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/treinamento1-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!-- treinamento1-3 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/treinamento1-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/treinamento1-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!--treinamento2-3-->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-wrap">
+              <img src="img/treinamento2-3.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/treinamento2-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!-- auditorio4 -->
+            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+              <div class="portfolio-wrap">
+                <img src="img/auditorio4.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-links portfolio-info">
+                    <a href="img/auditorio4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                  </div>
+              </div>
+            </div>
+          
+          <!-- auditorio5 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <img src="img/auditorio5.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/auditorio5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
+            </div>
+          </div>
+
+          <!-- treinamento1-4 -->
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <div class="portfolio-wrap">
+              <img src="img/treinamento1-4.jpg" class="img-fluid" alt="">
+                <div class="portfolio-links portfolio-info">
+                  <a href="img/treinamento1-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox"><i class="bx bx-plus"></i></a>
+                </div>
             </div>
           </div>
 
@@ -171,203 +317,7 @@
 
       </div>
     </section>
-    <!--FIM SALAS DISPONIVEIS-->
-
-  <!--GALERIA-->
-  <section id="portfolio" class="portfolio">
-    <div class="container">
-
-      <div class="section-title" data-aos="fade-up">
-        <h2>Galeria de fotos</h2>
-        <p>Acompanhe alguns eventos que já aconteceram aqui no Parque!</p>
-      </div>
-
-      <div class="row" data-aos="fade-up" data-aos-delay="200">
-        <div class="col-lg-12 d-flex justify-content-center">
-          <ul id="portfolio-flters">
-            <li data-filter="*" class="filter-active">Todas as fotos</li>
-            <li data-filter=".filter-app">Auditório</li>
-            <li data-filter=".filter-card">Treinamento 1</li>
-            <li data-filter=".filter-web">Treinamento 2</li>
-            <li data-filter=".filter-web2">Treinamento 3</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="400">
-
-        <!--auditorio1-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="img/auditorio1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="img/auditorio1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--treinamento2-1-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="img/treinamento2-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="treinamento2-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--auditorio2-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="img/auditorio2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="img/auditorio2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--treinamento1-1-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="img/treinamento1-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="img/treinamento1-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--treinamento2-2-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="img/treinamento2-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="img/treinamento2-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--auditorio3-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="img/auditorio3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="img/auditorio3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--treinamento1-2-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="img/treinamento1-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="img/treinamento1-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--treinamento1-3-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="img/treinamento1-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="img/treinamento1-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--treinamento2-3-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="img/treinamento2-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="img/treinamento2-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--treinamento3-1-->
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web2">
-            <div class="portfolio-wrap">
-              <img src="img/treinamento3-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="img/treinamento3-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-        
-        <!--treinamento3-2-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web2">
-          <div class="portfolio-wrap">
-            <img src="img/treinamento3-2.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="img/treinamento3-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!--treinamento3-3-->
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web2">
-          <div class="portfolio-wrap">
-            <img src="img/treinamento3-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="img/treinamento3-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-  </section><!--FIM GALERIA-->
+    <!--FIM GALERIA-->
 
     <!--FEEDBACK-->
     <section id="testimonials" class="testimonials section-bg">
@@ -478,10 +428,10 @@
               <div class="member-img">
                 <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a><i class="bi bi-twitter"></i></a>
+                  <a><i class="bi bi-facebook"></i></a>
+                  <a><i class="bi bi-instagram"></i></a>
+                  <a><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -496,10 +446,10 @@
               <div class="member-img">
                 <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a><i class="bi bi-twitter"></i></a>
+                  <a><i class="bi bi-facebook"></i></a>
+                  <a><i class="bi bi-instagram"></i></a>
+                  <a><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -514,10 +464,10 @@
               <div class="member-img">
                 <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a><i class="bi bi-twitter"></i></a>
+                  <a><i class="bi bi-facebook"></i></a>
+                  <a><i class="bi bi-instagram"></i></a>
+                  <a><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -532,10 +482,10 @@
               <div class="member-img">
                 <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
                 <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <a><i class="bi bi-twitter"></i></a>
+                  <a><i class="bi bi-facebook"></i></a>
+                  <a><i class="bi bi-instagram"></i></a>
+                  <a><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
               <div class="member-info">
@@ -566,7 +516,7 @@
           </div>
           <div class="col-lg-7">
             <p>
-              Envie uma mensagem para nós através do questionário ao final da página. Alguem da equipe Pelotas Parque Tecnológico fará o mais rápido possivel.
+              Envie uma mensagem para nós através do questionário ao final da página. Alguem da equipe Pelotas Parque Tecnológico fará contato o mais rápido possivel.
             </p>
           </div>
         </div><!--FIM FAQ-->
@@ -628,73 +578,77 @@
     <!--CONTATO -->
     <section id="contato" class="contact">
       <div class="container">
-
         <div class="section-title" data-aos="fade-up">
-          <h2>Contato</h2>
+          <h2>Contato para locação de salas</h2>
+          <p>Ficou interessado em locar uma sala para o seu evento no Pelotas Parque Tecnologico ou ainda tem dúvidas.
+            Entre em contato pelo formulário logo abaixo que um de nossos colaboradores retornará o mais brevemente possivel!</p>
         </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <div class="contact-about">
-              <h3>Pelotas Parque Tecnológico</h3>
-              <div class="social-links">
-                <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-                <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-                <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-                <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-4 mt-md-0" data-aos="fade-up" data-aos-delay="200">
-            <div class="info">
-              <div>
-                <i class="ri-map-pin-line"></i>
-                <p>Av. Domingos de Almeida, 1785 - Areal<br>Pelotas / RS</p>
-              </div>
-
-              <div>
-                <i class="ri-mail-send-line"></i>
-                <p>contato@pelotasparquetecnologico.com.br</p>
-              </div>
-
-              <div>
-                <i class="ri-phone-line"></i>
-                <p>+55 (53) 3026-6556</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="col-lg-5 col-md-12" data-aos="fade-up" data-aos-delay="300">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="form-group">
-                <input type="text" name="nome" class="form-control" id="nome" placeholder="Nome e sobrenome" required>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="seu@email.com" required>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="assunto" id="assunto" placeholder="Assunto" required>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Carregando</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Sua mensagem foi enviada. Logo entraremos em contato!</div>
-              </div>
-              <div class="text-center"><button type="submit">Enviar</button></div>
-            </form>
-          </div>
-
         </div>
-      </div>
-
+      
+      <div class="text-center"><a href="formulario.html" target="_blank"><button class="btn btn-primary btn-lg" type="submit">Formulário</button></a></div>
     </section>
     <!--FIM CONTATO-->
+
+    <!--MODAL-->
+    <!-- link modal = data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo" -->
+    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Contato</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form class="needs-validation" novalidate>
+              <div class="mb-3" form-check>
+                <label for="recipient-name" class="col-form-label">Nome completo</label>
+                <input type="text" class="form-control" id="recipient-name" required>
+              </div>
+              <div class="mb-3" form-check>
+                <label for="recipient-tel" class="col-form-label">Telefone</label>
+                <input type="tel" class="form-control" id="recipient-tel" required>
+              </div>
+              <div class="mb-3">
+                <label for="recipient-name" class="col-form-label">Email</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Agendar evento
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Agendar visita
+                </label>
+              </div>
+
+              <div class="mb-3">
+                <label for="message-text" class="col-form-label">Mensagem</label>
+                <textarea class="form-control" id="message-text" placeholder="Digite suas duvidas"></textarea>
+              </div>
+
+              <div class="mb-3 row">
+                <label for="date" class="col-1 col-form-label">Data</label>
+                <div class="col-5">
+                  <div class="input-group date" id="datepicker">
+                    <input type="date" class="form-control" id="date" required>
+                  </div>
+                </div>
+              </div> 
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <!--FIM MODAL-->
 
     <!--LOCALIZAÇÃO GOOGLE MAPS-->
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3392.592833777662!2d-52.319488585247164!3d-31.75431301985487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9511b506ac7c9cff%3A0x30eeb98ecd855926!2sPelotas%20Parque%20Cient%C3%ADfico%20e%20Tecnol%C3%B3gico!5e0!3m2!1spt-BR!2sbr!4v1669414583956!5m2!1spt-BR!2sbr" width="100%" height="600" style="position: relative;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -707,8 +661,11 @@
   <footer class="bg-light p-3">
     <P class="text m-0 text-center">&copy; Copyright <strong>Pelotas Parque Tecnológico</strong>.</P>
   </footer>
+<!--FIM FOOTER-->
  
+<!--SETA RETORNO AO TOPO-->
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+<!--FIM SETA RETORNO AO TOPO-->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
